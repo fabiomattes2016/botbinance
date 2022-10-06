@@ -33,7 +33,7 @@ async function loadData(path) {
 
 setInterval(function () {
   try {
-    http.get("https://bot-binance-fabio.herokuapp.com/api");
+    http.get("http://bot-binance-fabio.herokuapp.com/api");
   } catch (err) {
     console.error(err);
   }
