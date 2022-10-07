@@ -1,5 +1,4 @@
 [
-  "LTCBTC",
   "GASBTC",
   "WTCBTC",
   "LRCBTC",
@@ -9,7 +8,6 @@
   "MDABTC",
   "ZECBTC",
   "ASTBTC",
-  "DASHBTC",
   "REQBTC",
   "POWRBTC",
   "ARKBTC",
@@ -21,7 +19,6 @@
   "LSKBTC",
   "ADXBTC",
   "XLMBTC",
-  "WAVESBTC",
   "ICXBTC",
   "ELFBTC",
   "NEBLBTC",
