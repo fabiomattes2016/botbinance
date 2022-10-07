@@ -81,7 +81,6 @@ var job = new cron.CronJob({
       }
 
       await storeData(intState, "./jobstate.txt");
-      console.log("tetestte");
     } catch (err) {
       console.error(err);
     }

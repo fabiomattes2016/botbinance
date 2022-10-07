@@ -96,7 +96,7 @@ module.exports = {
     coinList = coinList.filter((c) => parseFloat(prices[c]) > valorMinimoMoeda);
     coinList = coinList.filter((c) => parseFloat(prices[c]) < valorMaximoMoeda);
 
-    console.log("totale...", coinList.length);
+    console.log("total...", coinList.length);
 
     getBlockeds(coinList, client).then(async (promises) => {
       let blockeds = promises.filter((p) => p.blocked);
@@ -106,7 +106,7 @@ module.exports = {
       });
 
       blockList = blockList.concat(permanentBlockeds);
-      console.log("lengthh FINISH FINALY ", blockList.length);
+      console.log("length FINISH FINALY ", blockList.length);
 
       await storeData({ data: blockList }, "./blockeds.txt");
     });

@@ -172,7 +172,7 @@ function createCoins(client, infos, prices, cacheBlockeds) {
   coinList = coinList.filter((c) => parseFloat(prices[c]) > coinMinValue);
   coinList = coinList.filter((c) => blockeds.indexOf(c) === -1);
   coinList = coinList.filter((c) => cacheBlockeds.indexOf(c) === -1);
-  console.log("coinList TOTALE", coinList);
+  console.log("coinList TOTAL", coinList);
 
   function createEachCoin(coin) {
     return new Promise(async (resolve) => {
